@@ -591,20 +591,33 @@
           </div>
         </div>
 
-        <div class="modal-div">
-        <label for="user-last-text" class="modal-label">Comment</label>          
-          <input type="text" 
-          name="user-text" 
-          class="modal-input-last last-input" 
-          placeholder="Text input"
-          id="user-last-text"
-          >  
-        
+        <div class="input-label-wrap last-label-wrap">
+          <label class="modal-label" for="user-comment">Comment</label>
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            class="modal-textarea"
+            placeholder="Text input"
+          ></textarea>
         </div>
-
-         <button type="submit" class="modal-btn">Send</button>
-        
-        </form>
+        <div class="modal-policy">
+          <input
+            type="checkbox"
+            id="user-privacy"
+            name="user-privacy"
+            value="true"
+            class="input-policy visually-hidden"
+          />
+          <label for="user-privacy" class="modal-label modal-label-policy"
+            ><span class="modal-customs-icon">
+              <svg width="10" height="8">
+                <use href="./images/icons.svg#icon-true-1"></use></svg></span
+            >I accept the terms and conditions of the
+            <a href="" class="privacy-link">Privacy Policy</a></label
+          >
+        </div>
+        <button type="submit" class="modal-btn">Send</button>
+      </form>
         </div>
       </div>
 
