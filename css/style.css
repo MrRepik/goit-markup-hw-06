@@ -763,7 +763,9 @@ margin-bottom: 16px;
 fill: var(--footer-studio);
 }
 
-
+.modal-policy{
+    margin-bottom: 24px;
+}
 
 
 
@@ -789,6 +791,9 @@ margin-right: 120px;
 }
 
 
+.last-label-wrap{
+    margin-bottom: 16px;
+}
 
 .footer-focus:focus, .footer-focus:hover{
     background-color: #31D0AA;
