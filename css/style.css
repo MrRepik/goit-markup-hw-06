@@ -242,6 +242,10 @@ ol{
     margin-bottom: 4px;
 }
 
+.modal-textarea:focus{
+    border-color: #4D5AE5;
+}
+
 .modal-textarea{
     width: 100%;
     height: 120px;
@@ -274,7 +278,7 @@ ol{
 }
 
 .modal-policy{
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .input-policy:checked + .modal-label-policy .modal-customs-icon{
